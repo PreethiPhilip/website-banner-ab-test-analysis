@@ -1,49 +1,49 @@
-## 📊 Website Banner A/B Test Analysis
-### 🔍 Project Overview
-This project analyzes the results of an A/B test conducted to evaluate the effectiveness of a new website banner design. The goal was to determine whether the new banner leads to higher user engagement and conversion compared to the original version.
 
-### 🛠️ Tools & Technologies
-* SQL (for data extraction)
+# 📊 Website Banner A/B Test Analysis
 
-* Python (Pandas, SciPy)
+## 🔍 Overview
+This project evaluates the effectiveness of a redesigned website banner by analyzing user behavior in an A/B test. The primary goal is to determine whether the new banner improves user conversion rates compared to the original.
 
-* Tableau (for visualization)
+---
 
-* Jupyter Notebook
+## 🛠️ Tools & Technologies
+- **SQL** – Data extraction and preparation
+- **Python** – Data cleaning, hypothesis testing (Pandas, SciPy)
+- **Jupyter Notebook**
+- **Tableau** – Interactive data visualization and dashboard
 
-### 🎯 Objectives
-* Design a statistically sound A/B test to evaluate two website banner versions.
+---
 
-* Analyze user-level engagement data using SQL.
+## 🎯 Objectives
+- Test whether the new banner leads to higher conversions.
+- Validate statistical significance of observed differences.
+- Visualize and communicate findings to stakeholders.
 
-* Visualize conversion performance in Tableau.
+---
 
-* Provide data-driven recommendations for marketing and design teams.
+## 📁 Dataset
+- Simulated dataset with user-level impressions, clicks, conversions.
+- Key fields: `user_id`, `variant_group`, `conversion`, `device_type`, `timestamp`.
 
-### 🧮 Methodology
-* Aggregated user interaction data using SQL (CTEs, Joins, Window Functions).
+---
 
-* Performed statistical analysis (t-test) using Excel to compare conversion rates.
+## 📊 Key Insights
+- Variant B (new banner) resulted in a **7.2% increase** in conversions.
+- Statistical test (t-test) yielded a **p-value < 0.05**, confirming significance.
+- Mobile users showed stronger improvement compared to desktop users.
+- Funnel analysis showed improved performance at every stage of the user journey.
 
-* Built Tableau dashboards to communicate results effectively.
+---
 
-### 📈 Key Insights
-* User conversion rates increased significantly after seeing the banner.
+## 📈 Visualizations
+_Examples of charts available in Tableau:_
+- Conversion Comparison (Group A vs B)
+- Time Series of Conversion Rates
+- Device-based Performance
+  
+---
 
-* Statistical significance was confirmed (p-value < 0.05).
+## 🚀 How to Run
 
-* Users in Segment A (e.g., mobile vs. desktop) responded better to the new design.
-
-### 📁 Dataset
-* Internal simulated dataset of user impressions, clicks, and conversions.
-
-* Aggregated metrics by user_id, date, device type, and variant group.
-
-
-### 📚 What I Learned
-* Applying rigorous statistical testing to business experiments.
-
-* Translating raw SQL data into clear visual insights.
-
-* Communicating technical findings to non-technical stakeholders.
-
+### Option 1: Explore in Tableau
+[🔗 View Live Dashboard on Tableau Public](https://public.tableau.com/app/profile/preethi.philip/vizzes)
